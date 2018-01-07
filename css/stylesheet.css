@@ -1,0 +1,325 @@
+html,
+body {
+  /* RESET */
+  margin: 0;
+  padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    font-family: 'roboto', sans-serif;
+    position:inherit;
+    font-size: 90px;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: 'roboto', sans-serif;
+    position:inherit;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+h3 {
+    font-family: 'roboto', sans-serif;
+    color: ghostwhite;
+    font-size: 20px;
+    position: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ylw {
+    color: yellow;
+    text-decoration: underline;
+}
+
+div {
+    position: relative;
+}
+
+.divpos {
+    background: rgba(0, 0, 0, 0.65);
+    left: 150px;
+    top: 150px;
+}
+
+.divpos2 {
+    right: 230px;
+    bottom: 70px;
+}
+
+.divpos3 {
+    right: 290px;
+    bottom: 70px;
+}
+
+
+
+img {
+    position: absolute;
+}
+
+.title7 {
+    bottom: 420px;
+    left: 358px;
+    font-size: 80px;
+}
+
+.title {
+    bottom: 420px;
+    left: 358px;
+}
+
+.title2 {
+    bottom:420px;
+    left: 360px;
+}
+
+.title3 {
+    bottom: 290px;
+    left: 475px;
+}
+
+.title3a {
+    bottom: 283px;
+    left: 445px;
+}
+
+.title4 {
+    bottom: 460px;
+    left: 370px;
+}
+
+.title5 {
+    bottom: 370px;
+    left: 930px;
+}
+
+.title6 {
+    bottom: 340px;
+    left: 550px;
+}
+
+.position {
+    left: 440px;
+    top: 290px;
+}
+
+.position1 {
+    left: 440px;
+    top: 320px;
+}
+
+.position2 {
+    left: 600px;
+    top: 340px;
+}
+
+.position3 {
+    left: 540px;
+    top: 370px;
+}
+
+.position4 {
+    left: 440px;
+    top: 385px;
+}
+
+.position5 {
+    left: 440px;
+    top: 385px;
+}
+
+.size {
+    height: 70%;
+    width: 70%;
+}
+
+.size1 {
+    height: 60%;
+    width: 60%;
+}
+
+.titleposition {
+    left:470px;
+    top: 270px;
+}
+
+
+.container {
+  height: 100%;
+  position: relative;
+}
+
+.container section {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.container section:first-child {
+  z-index: 999999;
+}
+
+.container section p {
+  padding: 0;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 70pt;
+}
+
+.container section.first {
+  background-image: url(../images/title.png);
+
+}
+
+.container section.second {
+  background-image: url(../images/1900.png);
+}
+
+.container section.third {
+  background-image: url(../images/1910.png);
+}
+
+.container section.forth {
+  background-image: url(../images/1920.png);
+}
+
+.container section.fifth {
+  background-image: url(../images/1930.png);
+}
+
+.container section.sixth {
+  background-image: url(../images/1940.png);
+}
+
+.container section.seventh {
+  background-image: url(../images/1950.png);
+}
+
+.container section.eighth {
+  background-image: url(../images/1960.png);
+}
+
+.container section.nineth {
+  background-image: url(../images/1970.png);
+}
+
+.container section.tenth {
+  background-image: url(../images/1980.png);
+}
+
+.container section.eleventh {
+  background-image: url(../images/1990.png);
+}
+
+.container section.twelvth {
+  background-image: url(../images/2000.png);
+}
+
+.container section.thirteen {
+  background-image: url(../images/2010.png);
+}
+
+.font1 {
+    font-family: 'Amptmann Script';
+}
+
+.font2 {
+    font-family: 'Unifraktur Cook';
+}
+
+.font3 {
+    font-family: 'Odalisque';
+}
+
+.font4 {
+    font-family: 'Sarsapar';
+}
+
+.font5 {
+    font-family: 'Aspire';
+}
+
+.font6 {
+    font-family: 'Birds of Paradise';
+}
+
+.font7 {
+    font-family: 'Birds of Paradise';
+}
+
+.font8 {
+    font-family: 'Bodini';
+}
+
+.font9 {
+    font-family: 'Bodini';
+}
+
+.font10 {
+    font-family: 'Bodini';
+}
+
+.font11 {
+    font-family: 'Portland LDO';
+}
+
+.font12 {
+    font-family: 'Portland LDO';
+}
+
+.fontsize {
+    font-size: 100px;
+}
+
+/* ---- buttons ---- */
+
+.button-two {
+  border-radius: 4px;
+  background-color:rgba(0, 0, 0, 0.8);
+  border: none;
+  padding: 20px;
+  width: 120px;
+  transition: all 0.5s;
+  color: white;
+
+}
+
+
+.button-two span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-two span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-two:hover span {
+  padding-right: 25px;
+}
+
+.button-two:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button-two {
+  text-align: center;
+  cursor: pointer;
+  font-size:14px;
+  margin: 0 0 0 100px;
+  margin-bottom: 20px;
+}
