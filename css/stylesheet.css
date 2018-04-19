@@ -167,62 +167,74 @@ img {
 
 .container section p {
   padding: 0;
-  color: rgba(255, 255, 255, 0.75);
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 70pt;
 }
 
 .container section.first {
   background-image: url(../images/title.png);
+  background-size: cover;
 
 }
 
 .container section.second {
   background-image: url(../images/1900.png);
+  background-size: cover;
 }
 
 .container section.third {
   background-image: url(../images/1910.png);
+    background-size: cover;
 }
 
 .container section.forth {
   background-image: url(../images/1920.png);
+    background-size: cover;
 }
 
 .container section.fifth {
   background-image: url(../images/1930.png);
+    background-size: cover;
 }
 
 .container section.sixth {
   background-image: url(../images/1940.png);
+    background-size: cover;
 }
 
 .container section.seventh {
   background-image: url(../images/1950.png);
+    background-size: cover;
 }
 
 .container section.eighth {
   background-image: url(../images/1960.png);
+    background-size: cover;
 }
 
 .container section.nineth {
   background-image: url(../images/1970.png);
+    background-size: cover;
 }
 
 .container section.tenth {
   background-image: url(../images/1980.png);
+    background-size: cover;
 }
 
 .container section.eleventh {
   background-image: url(../images/1990.png);
+    background-size: cover;
 }
 
 .container section.twelvth {
   background-image: url(../images/2000.png);
+    background-size: cover;
 }
 
 .container section.thirteen {
   background-image: url(../images/2010.png);
+    background-size: cover;
 }
 
 .font1 {
